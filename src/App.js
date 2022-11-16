@@ -25,6 +25,7 @@ function App() {
     }
   };
 
+  console.log("hello");
   // clear data from both sections when clear btn is clicked
   const handleClear = () => {
     textRef.current.value = "";
